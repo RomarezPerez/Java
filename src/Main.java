@@ -1,16 +1,19 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Привет, Нетология!");
-        System.out.println("2 + 3");
-        System.out.println(2 + 3);
 
-        int speed = 17;
-        int x = speed + 3;
+        int eaters = 5;
 
-        double d = 6.5;
-        String name = "Petya";
+        int water = 3000;
+        int potatoes = 5;
+        int chicken = 6;
+        int spices = 10;
 
-        System.out.println(name + " ехал со скоростью " + speed);
+        System.out.println("Сварили суп! На одного человека вышло:");
+        System.out.println((water / eaters) + " миллилитров воды");
+        System.out.println((potatoes / eaters) + " картофелин (а)");
+        System.out.println((chicken / eaters) + " куриных(ое) бедер(ро)");
+        System.out.println((spices / eaters) + " ложек(ка) специй");
+
     }
 }
